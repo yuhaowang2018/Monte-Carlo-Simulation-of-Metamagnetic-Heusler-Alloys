@@ -16,5 +16,5 @@
 
 ![alt text][plot2]
 
-[plot1]: https://github.tamu.edu/yuhao-wang/Monte-Carlo-Simulation-of-Heusler-Alloys/blob/master/strain1.png
-[plot2]: https://github.tamu.edu/yuhao-wang/Monte-Carlo-Simulation-of-Heusler-Alloys/blob/master/Full_H_2.png
+[plot1]: https://github.com/yuhaowang2018/Monte-Carlo-Simulation-of-Metamagnetic-Heusler-Alloys/blob/master/strain1.png
+[plot2]: https://github.com/yuhaowang2018/Monte-Carlo-Simulation-of-Metamagnetic-Heusler-Alloys/blob/master/Full_H_2.png
