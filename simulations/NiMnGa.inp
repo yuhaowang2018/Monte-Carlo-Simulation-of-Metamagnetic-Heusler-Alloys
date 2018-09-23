@@ -1,0 +1,72 @@
+UNITCELL
+     Structure L21
+     c2aRatio  1.25
+     dataAtoms 4 Ni Mn Ga NiA
+               NiA  Mn   0.18
+     MAGSTATES 3 6 0 3
+     MAGCODES  1 2 3 1
+     MagMoment 1 1 0 1
+               1 1 0 1
+END
+
+STRUCTDATA  data 21
+Mn Mn 0.70711 0.70711
+Mn Ga 0.5 0.5
+Mn Ga 0.02 0.625
+Mn Ni 0.43301 0.4719
+Mn NiA 0.70711 0.70711
+Ga Ga 0.70711 0.70711
+Ga Mn 0.5 0.5
+Ga Mn 0.02 0.625
+Ga Ni 0.43301 0.4719
+Ga NiA 0.5 0.5
+Ga NiA 0.02 0.625
+Ni Ga 0.43301 0.4719
+Ni Ni 0.5 0.5
+Ni Ni 0.02 0.625
+Ni Mn 0.43301 0.4719
+Ni NiA 0.43301 0.4719
+NiA Mn 0.70711 0.70711
+NiA Ni 0.43301 0.4719
+NiA Ga 0.5 0.5
+NiA Ga 0.02 0.625
+NiA NiA 0.70711 0.70711
+
+STRUCTPARA  2.1  0.25  2.5  4.3  0.25
+
+SUBDOMAIN 4 2 2
+
+TEMPERATURE  270  400  3
+
+MCSTEPS  10000 10000 50
+
+PARAMETERS
+sizeL  6
+MagField 0.00
+Kaniscub 0
+Kanistet 0
+CubJij	4
+Mn	Mn	 0.70711	-0.2
+Mn      Mn       1.0            1.47
+Mn	Ni	 0.43301	4.64
+Mn      NiA      0.70711        0.2
+
+TetJij	6
+Mn	Mn	 0.70711	4.33
+Mn	Mn	 0.80039    1.93
+Mn	Mn	 1.0	    -1.28
+Mn	Ni	 0.4719	    6.027
+Mn  NiA  0.70711    -0.77
+Mn  NiA  0.80039    1.039
+
+END
+
+WRITESPINFILES OFF
+
+POLY 0
+
+SIMDOMAINDFILE ON  NiMnGa.sdd
+
+END
+
+
